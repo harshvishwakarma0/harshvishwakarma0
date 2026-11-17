@@ -61,7 +61,8 @@
   "techStack": [
     {
       "title": "Languages & Problem Solving",
-      "icons": "python,cpp,js,ts,java"
+      "icons": "python,cpp,js,ts,java",
+      "note": "Python · C++ · JavaScript · TypeScript · Java · DSA · Object-Oriented Programming"
     },
     {
       "title": "Frontend Development",
@@ -77,6 +78,14 @@
       "title": "Cloud & DevOps",
       "icons": "firebase,supabase,git,github,docker,cloudflare",
       "note": "Cloudflare Workers · Cloudflare Pages · Supabase · Vercel · Git · Docker · CI/CD Pipelines"
+    },
+    {
+      "title": "AI & Agents",
+      "customIcons": [
+        "assets/icon-agui.png",
+        "assets/icon-gemini.svg"
+      ],
+      "note": "AG-UI protocol · Gemini API · Agent-driven interfaces"
     },
     {
       "title": "Tools & Editors",
