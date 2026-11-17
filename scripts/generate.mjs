@@ -369,9 +369,7 @@ function buildHeader(cfg) {
   const enc = encodeURIComponent;
   const lines = ['<div align="center">'];
   lines.push(`<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1e4d,50:1e40af,100:255df6&height=180&section=header&text=${enc(cfg.name)}&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=${enc('Full Stack Developer | System Builder | Problem Solver')}&descAlignY=58&descSize=18&descColor=dbeafe" alt="${esc(cfg.name)}" />`);
-  lines.push(`<a href="${cfg.portfolio}">`);
   lines.push(`<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=255DF6&center=true&vCenter=true&width=600&lines=${cfg.typingLines.map(enc).join(';')}" alt="Typing SVG" />`);
-  lines.push('</a>');
   lines.push('<br />');
   cfg.badges.forEach((b) => lines.push(`[![${b.label}](https://img.shields.io/badge/${enc(b.label)}-${enc(b.value)}-${b.color}?style=for-the-badge)](${b.url})`));
   lines.push('<br />');

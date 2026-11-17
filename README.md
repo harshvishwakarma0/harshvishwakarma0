@@ -1,8 +1,6 @@
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1e4d,50:1e40af,100:255df6&height=180&section=header&text=Harsh%20Vishwakarma&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20System%20Builder%20%7C%20Problem%20Solver&descAlignY=58&descSize=18&descColor=dbeafe" alt="Harsh Vishwakarma" />
-<a href="https://harshdev0.com">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=255DF6&center=true&vCenter=true&width=600&lines=Building%20scalable%20production%20systems;Full%20Stack%20%7C%20Cloud-Native%20%7C%20SaaS;React%2019%20%2B%20Next.js%20%2B%20TypeScript%20%2B%20Python;Turning%20ideas%20into%20real%20products" alt="Typing SVG" />
-</a>
 <br />
 [![Portfolio](https://img.shields.io/badge/Portfolio-harshdev0.com-255DF6?style=for-the-badge)](https://harshdev0.com)
 [![Email](https://img.shields.io/badge/Email-vishwakarmah330%40gmail.com-1D4ED8?style=for-the-badge)](mailto:vishwakarmah330@gmail.com)
@@ -52,7 +50,7 @@
 
 | 🎵 Now Playing |
 | --- |
-| <a href="https://raw.githubusercontent.com/harshvishwakarma0/harshvishwakarma0/main/assets/lofi-music.mp3"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-playing-dark.svg"><img src="assets/now-playing-light.svg" width="540" height="72" alt="Play Lofi Music — harsh.dev · generative loop" /></picture></a> |
+| <a href="https://htmlpreview.github.io/?https://github.com/harshvishwakarma0/harshvishwakarma0/blob/main/player.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-playing-dark.svg"><img src="assets/now-playing-light.svg" width="540" height="72" alt="Play Lofi Music — harsh.dev · generative loop" /></picture></a> |
 
 _Click the play button to hear the lofi loop from my portfolio._
 
