@@ -173,18 +173,19 @@ function mainSvg(theme, days) {
 .years {
   display: flex; gap: 5px;
   contain: strict;
-  inline-size: ${graphWidth}px;
+  inline-size: ${graphWidth * 2}px;
   block-size: 168px;
   will-change: transform;
   backface-visibility: hidden;
   transform: translateZ(0);
   animation-name: scroll;
   animation-timing-function: linear;
-  animation-duration: 45s;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
   animation-fill-mode: both;
   animation-delay: 1s;
 }
-@keyframes scroll { 0% { transform: translateX(60px); } 100% { transform: translateX(-${graphWidth - 800}px); } }
+@keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-${graphWidth}px); } }
 .week { display: flex; flex-direction: column; gap: 5px; }
 .dot {
   contain: strict;
@@ -199,7 +200,7 @@ function mainSvg(theme, days) {
 .dot--4 { background-color: var(--color-dot-bg-4); }
 `);
 
-  const body = `<main class="wrapper"><article class="graph"><div class="years">${cols}</div></article></main>`;
+  const body = `<main class="wrapper"><article class="graph"><div class="years">${cols}${cols}</div></article></main>`;
   return svgShell({ theme, width: '100%', height: 196, css, body });
 }
 
