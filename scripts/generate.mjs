@@ -296,8 +296,12 @@ function buildHeader(cfg) {
   lines.push(`<h1 align="center">Hello Traveler, I'm ${esc(cfg.name)} 👋</h1>`, '');
   lines.push('<br>', '<div align="center">');
   cfg.badges.forEach((b) => {
-    const src = `https://img.shields.io/badge/${encodeURIComponent(b.label)}-${encodeURIComponent(b.value)}-${b.color}?style=for-the-badge`;
-    lines.push(`  <a href="${b.url}"><img src="${src}" alt="${esc(b.label)}" /></a>`);
+    const src = b.src || `https://img.shields.io/badge/${encodeURIComponent(b.label)}-${encodeURIComponent((b.value || '').replace(/-/g, '--'))}-${b.color}?style=for-the-badge`;
+    if (b.url) {
+      lines.push(`  <a href="${b.url}"><img src="${src}" alt="${esc(b.label)}" /></a>`);
+    } else {
+      lines.push(`  <img src="${src}" alt="${esc(b.label)}" />`);
+    }
   });
   lines.push('</div>', '');
   return lines.join('\n');
