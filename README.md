@@ -19,25 +19,15 @@ I'm a full stack developer from Mumbai, building production-grade web platforms,
 <div>
   <img src="assets/avatar.webp" align="left" width="200px" alt="Harsh Vishwakarma" />
   <p align="right">
-
    &nbsp;
-
-   &nbsp;&#10022; <b>Harsh</b> is my name, a full stack developer based in Mumbai, India.
-
-   &nbsp;&#10022; Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.
-
-   &nbsp;&#10022; Lead Software Architect at <b>TSDC</b>, shipping exam, result and academic systems used by 1,000+ students.
-
-   &nbsp;&#10022; Comfortable across <b>React 19 / Next.js / TypeScript</b> up front and <b>Node.js / Python / Postgres</b> on the back.
-
-   &nbsp;&#10022; I speak <b>Marathi</b> (native), <b>Hindi</b> and <b>English</b>.
-
-   &nbsp;&#10022; BSc IT at the University of Mumbai, and a Software Innovation Excellence Award winner.
-
-   &nbsp;&#10022; Loves system design, DSA and turning rough ideas into shipped products.
-
-   &nbsp;&#10022; Nice to meet you!
-
+   &nbsp;&#10022; <b>Harsh</b> is my name, a full stack developer based in Mumbai, India.<br>
+   &nbsp;&#10022; Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.<br>
+   &nbsp;&#10022; Lead Software Architect at <b>TSDC</b>, shipping exam, result and academic systems used by 1,000+ students.<br>
+   &nbsp;&#10022; Comfortable across <b>React 19 / Next.js / TypeScript</b> up front and <b>Node.js / Python / Postgres</b> on the back.<br>
+   &nbsp;&#10022; I speak <b>Marathi</b> (native), <b>Hindi</b> and <b>English</b>.<br>
+   &nbsp;&#10022; BSc IT at the University of Mumbai, and a Software Innovation Excellence Award winner.<br>
+   &nbsp;&#10022; Loves system design, DSA and turning rough ideas into shipped products.<br>
+   &nbsp;&#10022; Nice to meet you!<br>
   </p>
 </div>
 
