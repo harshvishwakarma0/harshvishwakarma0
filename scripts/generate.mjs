@@ -293,7 +293,7 @@ function streakCardSvg(theme, streak) {
 function buildHeader(cfg) {
   const lines = [];
   lines.push(`<img width="100%" src="assets/hero-banner-harshdev.gif" alt="${esc(cfg.name)}" />`, '');
-  lines.push(`<h1 align="center">Hello Traveler, I'm ${esc(cfg.name)} 👋</h1>`, '');
+  lines.push(`<h1 align="center">Hello Traveller, I'm ${esc(cfg.name)} 👋</h1>`, '');
   lines.push('<br>', '<div align="center">');
   cfg.badges.forEach((b) => {
     const src = b.src || `https://img.shields.io/badge/${encodeURIComponent(b.label)}-${encodeURIComponent((b.value || '').replace(/-/g, '--'))}-${b.color}?style=for-the-badge`;
