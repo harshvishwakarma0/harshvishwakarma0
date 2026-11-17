@@ -174,9 +174,11 @@
 
 ---
 
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:255df6,50:1e40af,100:0b1e4d&height=110&section=footer" alt="" />
-
-**Thanks for visiting! Let's build something great together.**
-
+<div>
+  <h2 align="center">Thank you for reading 🙋🏻‍♂️</h2>
+  <div align="center">
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c3c3cbd-7a4c-43da-b1cb-0a207be30230/dixdo22-7f42f7c1-1344-4843-8334-4cbbb22cd9bb.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84YzNjM2NiZC03YTRjLTQzZGEtYjFjYi0wYTIwN2JlMzAyMzAvZGl4ZG8yMi03ZjQyZjdjMS0xMzQ0LTQ4NDMtODMzNC00Y2JiYjIyY2Q5YmIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XjOv2uL_Lllb4IACFJE0-TG6ij6mhCeK99mwXcmcC88" width="500" alt="Thank you for reading" />
+    <br><br>
+    <p><b>Thanks for visiting! Let's build something great together.</b></p>
+  </div>
 </div>
