@@ -6,6 +6,10 @@
   "contributionTotal": 115,
   "contributionTotalNote": "Owner-reported total (2026: 107 + 2025: 8), includes private contributions hidden from the public endpoint.",
   "portfolio": "https://harshdev0.com",
+  "snake": {
+    "light": "https://raw.githubusercontent.com/harshvishwakarma0/harshvishwakarma0/output/github-contribution-grid-snake.svg",
+    "dark": "https://raw.githubusercontent.com/harshvishwakarma0/harshvishwakarma0/output/github-contribution-grid-snake-dark.svg"
+  },
   "links": [
     { "label": "GitHub", "url": "https://github.com/harshvishwakarma0" },
     { "label": "LinkedIn", "url": "https://linkedin.com/in/harsh-vishwakarma-dev" },

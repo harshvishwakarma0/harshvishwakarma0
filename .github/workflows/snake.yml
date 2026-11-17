@@ -1,0 +1,33 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: harshvishwakarma0
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%23255DF6&color_dots=%23EBEDF0,%23A7BEFB,%23628BF9,%234071F7,%23255DF6
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23255DF6&color_dots=%23171B21,%23152A62,%232048B3,%231951EB,%230048FF
+
+      - name: Publish to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          keep_files: false

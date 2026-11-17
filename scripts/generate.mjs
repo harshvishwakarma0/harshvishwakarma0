@@ -399,6 +399,13 @@ function buildBody(cfg) {
   lines.push('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"><img width="40%" src="assets/langs-light.svg" alt="Top languages" /></picture>');
   lines.push('</div>', '', '---', '');
 
+  lines.push('## 🐍 Contribution Snake', '');
+  lines.push('<picture>');
+  lines.push(`  <source media="(prefers-color-scheme: dark)" srcset="${cfg.snake.dark}" />`);
+  lines.push(`  <source media="(prefers-color-scheme: light)" srcset="${cfg.snake.light}" />`);
+  lines.push(`  <img alt="GitHub contribution snake animation" src="${cfg.snake.light}" />`);
+  lines.push('</picture>', '', '---', '');
+
   lines.push('## What I Bring to the Table', '', '| Trait | Details |', '|---|---|');
   cfg.traits.forEach(([t, d]) => lines.push(`| **${t}** | ${d} |`));
   lines.push('', '---', '');
