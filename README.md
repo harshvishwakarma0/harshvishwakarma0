@@ -1,4 +1,4 @@
-<img width="100%" src="assets/herobanner.gif" alt="Harsh Vishwakarma" />
+<img width="100%" src="assets/hero-banner-harshdev.gif" alt="Harsh Vishwakarma" />
 
 <h1 align="center">Hello Traveler, I'm Harsh Vishwakarma 👋</h1>
 I'm a full stack developer from Mumbai, building production-grade web platforms, edge microservices and developer tools that people actually use.
