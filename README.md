@@ -48,14 +48,6 @@
 <br clear="all" />
 ---
 
-| 🎵 Now Playing |
-| --- |
-| <a href="https://htmlpreview.github.io/?https://github.com/harshvishwakarma0/harshvishwakarma0/blob/main/player.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-playing-dark.svg"><img src="assets/now-playing-light.svg" width="540" height="72" alt="Play Lofi Music — harsh.dev · generative loop" /></picture></a> |
-
-_Click the play button to hear the lofi loop from my portfolio._
-
----
-
 ## About Me
 
 ```ts

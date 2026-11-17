@@ -6,14 +6,6 @@
   "contributionTotal": 115,
   "contributionTotalNote": "Owner-reported total (2026: 107 + 2025: 8), includes private contributions hidden from the public endpoint.",
   "portfolio": "https://harshdev0.com",
-  "music": {
-    "title": "Lofi Music",
-    "artist": "harsh.dev · generative loop",
-    "label": "CLICK TO PLAY",
-    "url": "https://htmlpreview.github.io/?https://github.com/harshvishwakarma0/harshvishwakarma0/blob/main/player.html",
-    "source": "https://harshdev0.com",
-    "hint": "Click the play button to hear the lofi loop from my portfolio."
-  },
   "links": [
     { "label": "GitHub", "url": "https://github.com/harshvishwakarma0" },
     { "label": "LinkedIn", "url": "https://linkedin.com/in/harsh-vishwakarma-dev" },

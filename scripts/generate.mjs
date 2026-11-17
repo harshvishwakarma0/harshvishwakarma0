@@ -332,39 +332,6 @@ function statCards(theme, stats) {
   };
 }
 
-function musicCardSvg(theme, music) {
-  const css = sharedCss(theme, 72, `
-:root { --size-height: 72; }
-.wrapper { padding: 10px 12px; }
-.card { height:100%; display:flex; align-items:center; gap:12px;
-  border:1px solid var(--color-dot-bg-0); border-radius:8px; }
-.play { width:44px; height:44px; border-radius:50%; flex:none;
-  border:1px solid var(--color-text); display:flex; align-items:center; justify-content:center; }
-.play i { display:block; width:0; height:0; margin-left:3px;
-  border-top:7px solid transparent; border-bottom:7px solid transparent;
-  border-left:11px solid var(--color-text); }
-.info { flex:1; min-width:0; display:flex; flex-direction:column; gap:1px; }
-.label { font-size:8px; font-weight:600; letter-spacing:0.09em; opacity:0.55; }
-.title { font-size:13px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.artist { font-size:10px; opacity:0.7; }
-.track { height:3px; margin-top:5px; border-radius:2px; background:var(--color-dot-bg-0); overflow:hidden; }
-.fill { height:100%; width:0; border-radius:2px; background:var(--color-text);
-  animation: play 24s linear infinite; }
-@keyframes play { from { width:0; } to { width:100%; } }
-@media (prefers-reduced-motion: reduce) { .fill { animation:none; width:38%; } }
-`);
-  const body = `<main class="wrapper"><div class="card">
-  <div class="play"><i></i></div>
-  <div class="info">
-    <div class="label">${esc(music.label)}</div>
-    <div class="title">${esc(music.title)}</div>
-    <div class="artist">${esc(music.artist)}</div>
-    <div class="track"><div class="fill"></div></div>
-  </div>
-</div></main>`;
-  return svgShell({ theme, width: 540, height: 72, css, body });
-}
-
 function buildHeader(cfg) {
   const enc = encodeURIComponent;
   const lines = ['<div align="center">'];
@@ -384,10 +351,6 @@ function buildBody(cfg) {
   const s = cfg.stats;
   const a = cfg.about;
   const lines = [];
-
-  lines.push('| 🎵 Now Playing |', '| --- |');
-  lines.push(`| <a href="${cfg.music.url}"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-playing-dark.svg"><img src="assets/now-playing-light.svg" width="540" height="72" alt="Play ${esc(cfg.music.title)} — ${esc(cfg.music.artist)}" /></picture></a> |`);
-  lines.push('', `_${cfg.music.hint}_`, '', '---', '');
 
   lines.push('## About Me', '');
   lines.push('```ts');
@@ -462,7 +425,6 @@ for (const theme of ['light', 'dark']) {
   files.push([`top-${theme}.svg`, topSvg(theme, label)]);
   files.push([`main-${theme}.svg`, mainSvg(theme, days)]);
   files.push([`fallback-${theme}.svg`, fallbackSvg(theme)]);
-  files.push([`now-playing-${theme}.svg`, musicCardSvg(theme, config.music)]);
   const cards = statCards(theme, ghStats);
   files.push([`stats-${theme}.svg`, cards.stats]);
   files.push([`langs-${theme}.svg`, cards.langs]);
@@ -513,7 +475,7 @@ const preview = `<!doctype html>
   table { border-collapse:collapse; } td { border:1px solid #30363d; padding:10px; vertical-align:top; }
 </style></head><body>
 <div id="preview"></div>
-<script type="text/markdown" id="src">${readme.replace(config.music.url, 'assets/lofi-music.mp3')}</script>
+<script type="text/markdown" id="src">${readme}</script>
 <script src="preview.js"></script>
 </body></html>`;
 fs.writeFileSync(path.join(ROOT, 'preview.html'), preview);
