@@ -333,29 +333,29 @@ function statCards(theme, stats) {
 }
 
 function streakCardSvg(theme, streak) {
-  const css = sharedCss(theme, 120, `
-:root { --size-height: 120; }
+  const css = sharedCss(theme, 140, `
+:root { --size-height: 140; }
 .wrapper { padding: 16px 20px; }
 .card { height:100%; border:1px solid var(--color-dot-bg-0); border-radius:10px;
-  display:flex; flex-direction:column; justify-content:center; gap:14px; }
+  display:flex; flex-direction:column; justify-content:center; gap:12px; }
 .title { font-size:13px; font-weight:600; }
-.row { display:flex; gap:28px; }
+.row { display:flex; gap:26px; }
 .cell { display:flex; flex-direction:column; }
 .cell b { font-size:24px; font-weight:600; line-height:1.05; }
 .cell span { font-size:10px; opacity:0.65; }
+.cell small { font-size:9px; opacity:0.55; margin-top:2px; }
 .years { font-size:11px; opacity:0.7; }
 `);
   const years = Object.entries(streak.years).sort((a, b) => b[0] - a[0]).map(([y, n]) => `${y}: ${n}`).join('  ·  ');
   const body = `<main class="wrapper"><div class="card">
   <div class="title">Contributions</div>
   <div class="row">
-    <div class="cell"><b>${streak.total}</b><span>Total</span></div>
-    <div class="cell"><b>${streak.current}</b><span>Current streak</span></div>
-    <div class="cell"><b>${streak.longest}</b><span>Longest streak</span></div>
+    <div class="cell"><b>${streak.total}</b><span>Total</span><small>${esc(years)}</small></div>
+    <div class="cell"><b>${streak.current}</b><span>Current streak</span><small>${esc(streak.currentDate)}</small></div>
+    <div class="cell"><b>${streak.longest}</b><span>Longest streak</span><small>${esc(streak.longestRange)}</small></div>
   </div>
-  <div class="years">${esc(years)}</div>
 </div></main>`;
-  return svgShell({ theme, width: 420, height: 120, css, body });
+  return svgShell({ theme, width: 420, height: 140, css, body });
 }
 
 function buildHeader(cfg) {

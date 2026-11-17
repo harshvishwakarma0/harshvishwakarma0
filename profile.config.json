@@ -10,7 +10,10 @@
     "total": 115,
     "current": 0,
     "longest": 4,
-    "years": { "2026": 107, "2025": 8 }
+    "years": { "2026": 107, "2025": 8 },
+    "currentDate": "Nov 17",
+    "longestRange": "Jul 10 – Jul 13",
+    "source": "github.com/users/harshvishwakarma0/contributions"
   },
   "links": [
     { "label": "GitHub", "url": "https://github.com/harshvishwakarma0" },
