@@ -10,21 +10,29 @@
   <a href="https://instagram.com/harshvishwakarma0"><img src="https://img.shields.io/badge/Instagram-harshvishwakarma0-E1306C?style=for-the-badge" alt="Instagram" /></a>
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/top-dark.svg">
+  <img src="assets/top-light.svg" width="100%" height="20" align="left" alt="">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/main-dark.svg">
+  <img src="assets/main-light.svg" alt="Contribution graph for the last year" width="100%" height="196" align="left">
+</picture>
+<br clear="all" />
+
 ---
+
 
 ## About Me
 
 <div>
-  <img src="assets/avatar.webp" align="left" width="200px" alt="Harsh Vishwakarma" />
-  <p align="right">
+  <img src="assets/avatar.webp" align="right" width="200px" alt="Harsh Vishwakarma" />
+  <p align="left">
    &nbsp;
    &nbsp;&#10022; <b>Harsh</b> is my name, a full stack developer based in Mumbai, India.<br>
    &nbsp;&#10022; Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.<br>
    &nbsp;&#10022; Lead Software Architect at <b>TSDC</b>, shipping exam, result and academic systems used by 1,000+ students.<br>
-   &nbsp;&#10022; Comfortable across <b>React 19 / Next.js / TypeScript</b> up front and <b>Node.js / Python / Postgres</b> on the back.<br>
-   &nbsp;&#10022; I speak <b>Marathi</b> (native), <b>Hindi</b> and <b>English</b>.<br>
-   &nbsp;&#10022; BSc IT at the University of Mumbai, and a Software Innovation Excellence Award winner.<br>
-   &nbsp;&#10022; Loves system design, DSA and turning rough ideas into shipped products.<br>
+   &nbsp;&#10022; I speak <b>Hindi</b> (native) and <b>English</b>.<br>
    &nbsp;&#10022; Nice to meet you!<br>
   </p>
 </div>

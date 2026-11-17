@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="196" data-theme="light" width="100%">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+:root {
+  --color-text: #255DF6;
+  --color-dot-bg-0: #EBEDF0;
+  --color-dot-bg-1: #A7BEFB;
+  --color-dot-bg-2: #628BF9;
+  --color-dot-bg-3: #4071F7;
+  --color-dot-bg-4: #255DF6;
+  --color-dot-border: rgb(0 0 0 / 0.06);
+  --default-delay: 0.15s;
+  --default-duration: 0.7s;
+  --default-stagger: 0.02s;
+  --animate-in-menu-delay: calc(var(--default-delay) + var(--default-stagger) * 0);
+  --animate-in-links-delay: calc(var(--default-delay) + var(--default-stagger) * 1);
+  --animate-in-contributions-delay: calc(var(--default-delay) + var(--default-stagger) * 5);
+  --animate-in-readme-delay: calc(var(--default-delay) + var(--default-stagger) * 6);
+  --animate-in-graph-delay: calc(var(--default-delay) + var(--default-stagger) * 17);
+}
+*, *::before, *::after { box-sizing: border-box; }
+.grid { display: grid; grid-template-columns: repeat(6, 1fr); }
+.wrapper {
+  contain: strict;
+  block-size: 196px;
+  container-type: inline-size;
+  position: relative;
+  overflow: clip;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  color: var(--color-text);
+}
+@-moz-document url-prefix() { .wrapper { display: none; } }
+.label { contain: content; font-size: 14px; font-weight: 600; }
+.link { contain: content; font-size: 14px; }
+.fade-in {
+  display: inline-block;
+  will-change: transform;
+  animation-name: fade-in;
+  animation-fill-mode: both;
+  animation-duration: var(--duration, var(--default-duration));
+  animation-timing-function: var(--ease, ease-out);
+  animation-delay: var(--delay, var(--default-delay));
+}
+p { margin: 0; }
+@keyframes fade-in { 0% { transform: translateY(5px); } 100% { transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .fade-in, .shine, .link__arrow, .years { animation: none !important; }
+}
+.shine {
+  background-color: var(--color-text);
+  background-image: linear-gradient(-75deg, rgb(0 0 0 / 0) 0%, rgb(255 255 255 / 0.18) 15%, rgb(0 0 0 / 0) 25%);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation-name: shine;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
+@keyframes shine {
+  0% { background-position: 200%; }
+  10% { background-position: 0%; }
+  to { background-position: 0%; }
+}
+
+:root { --size-height: 196; }
+.wrapper { align-items: center; }
+.graph { --delay: var(--animate-in-graph-delay); width: 100%; }
+.years {
+  display: flex; gap: 5px;
+  contain: strict;
+  inline-size: 1537px;
+  block-size: 168px;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  animation-name: scroll;
+  animation-timing-function: linear;
+  animation-duration: 45s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+}
+@keyframes scroll { 0% { transform: translateX(60px); } 100% { transform: translateX(-737px); } }
+.week { display: flex; flex-direction: column; gap: 5px; }
+.dot {
+  contain: strict;
+  width: 24px; height: 24px;
+  border: 1.8px solid var(--color-dot-border);
+  border-radius: 4px;
+}
+.dot--0 { background-color: var(--color-dot-bg-0); }
+.dot--1 { background-color: var(--color-dot-bg-1); }
+.dot--2 { background-color: var(--color-dot-bg-2); }
+.dot--3 { background-color: var(--color-dot-bg-3); }
+.dot--4 { background-color: var(--color-dot-bg-4); }
+
+</style>
+      <main class="wrapper"><article class="graph"><div class="years"><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--4"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--4"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--1"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--1"></div><div class="dot dot--2"></div><div class="dot dot--2"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--3"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--2"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--1"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--1"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--1"></div><div class="dot dot--0"></div><div class="dot dot--1"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--1"></div><div class="dot dot--4"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--1"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--4"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--4"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div><div class="week"><div class="dot dot--0"></div><div class="dot dot--0"></div><div class="dot dot--0"></div></div></div></article></main>
+    </div>
+  </foreignObject>
+</svg>

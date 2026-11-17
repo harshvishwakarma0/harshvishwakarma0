@@ -2,6 +2,8 @@
   "username": "harshvishwakarma0",
   "name": "Harsh Vishwakarma",
   "portfolio": "https://harshdev0.com",
+  "contributionLabel": "Contributions",
+  "contributionTotal": 115,
   "streak": {
     "total": 115,
     "current": 0,
@@ -45,10 +47,7 @@
       "<b>Harsh</b> is my name, a full stack developer based in Mumbai, India.",
       "Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.",
       "Lead Software Architect at <b>TSDC</b>, shipping exam, result and academic systems used by 1,000+ students.",
-      "Comfortable across <b>React 19 / Next.js / TypeScript</b> up front and <b>Node.js / Python / Postgres</b> on the back.",
-      "I speak <b>Marathi</b> (native), <b>Hindi</b> and <b>English</b>.",
-      "BSc IT at the University of Mumbai, and a Software Innovation Excellence Award winner.",
-      "Loves system design, DSA and turning rough ideas into shipped products.",
+      "I speak <b>Hindi</b> (native) and <b>English</b>.",
       "Nice to meet you!"
     ],
     "philosophy": "Engineer high-efficiency systems where performance, clean architecture, and operational reliability scale seamlessly."
