@@ -1,23 +1,45 @@
 {
   "username": "harshvishwakarma0",
   "name": "Harsh Vishwakarma",
-  "intro": "I'm Harsh. A software engineer in Mumbai building cloud-native web apps with React, Next.js and Python.",
   "tagline": "I'm a full stack developer from Mumbai, building production-grade web platforms, edge microservices and developer tools that people actually use.",
   "portfolio": "https://harshdev0.com",
   "streak": {
     "total": 115,
     "current": 0,
     "longest": 4,
-    "years": { "2026": 107, "2025": 8 },
+    "years": {
+      "2025": 8,
+      "2026": 107
+    },
     "currentDate": "Nov 17",
     "longestRange": "Jul 10 – Jul 13",
     "source": "github.com/users/harshvishwakarma0/contributions"
   },
   "badges": [
-    { "label": "Portfolio", "value": "harshdev0.com", "url": "https://harshdev0.com", "color": "255DF6" },
-    { "label": "Email", "value": "vishwakarmah330@gmail.com", "url": "mailto:vishwakarmah330@gmail.com", "color": "1D4ED8" },
-    { "label": "GitHub", "value": "harshvishwakarma0", "url": "https://github.com/harshvishwakarma0", "color": "0f172a" },
-    { "label": "Instagram", "value": "harshvishwakarma0", "url": "https://instagram.com/harshvishwakarma0", "color": "E1306C" }
+    {
+      "label": "Portfolio",
+      "value": "harshdev0.com",
+      "url": "https://harshdev0.com",
+      "color": "255DF6"
+    },
+    {
+      "label": "Email",
+      "value": "vishwakarmah330@gmail.com",
+      "url": "mailto:vishwakarmah330@gmail.com",
+      "color": "1D4ED8"
+    },
+    {
+      "label": "GitHub",
+      "value": "harshvishwakarma0",
+      "url": "https://github.com/harshvishwakarma0",
+      "color": "0f172a"
+    },
+    {
+      "label": "Instagram",
+      "value": "harshvishwakarma0",
+      "url": "https://instagram.com/harshvishwakarma0",
+      "color": "E1306C"
+    }
   ],
   "about": {
     "facts": [
@@ -59,45 +81,61 @@
       "name": "Result Management System (RMS)",
       "live": "https://rms-resultmanagementsystem.vercel.app/login",
       "github": "https://github.com/harshvishwakarma0",
-      "points": ["Enterprise result computation & marksheet publishing", "Bulk grade imports and secure verification portals", "1,000+ active students and faculty"]
+      "points": [
+        "Enterprise result computation & marksheet publishing",
+        "Bulk grade imports and secure verification portals",
+        "1,000+ active students and faculty"
+      ]
     },
     {
       "name": "Exam Cell Management System",
       "live": "https://exam-cell-management-system-tsdc.vercel.app/",
       "github": "https://github.com/harshvishwakarma0",
-      "points": ["Seating arrangements & hall ticket issuance", "Invigilator duty rosters and timetable scheduling", "Built at institutional scale"]
+      "points": [
+        "Seating arrangements & hall ticket issuance",
+        "Invigilator duty rosters and timetable scheduling",
+        "Built at institutional scale"
+      ]
     },
     {
       "name": "ToolNest",
       "live": "https://toolnest.klivo.workers.dev/",
       "github": "https://github.com/harshvishwakarma0",
-      "points": ["15+ developer utilities on Cloudflare Workers", "Text, encoding, JSON, regex and crypto tools", "Zero-latency edge execution"]
+      "points": [
+        "15+ developer utilities on Cloudflare Workers",
+        "Text, encoding, JSON, regex and crypto tools",
+        "Zero-latency edge execution"
+      ]
     },
     {
       "name": "EmailGuard",
       "live": "https://emailguard.pages.dev/",
       "github": "https://github.com/harshvishwakarma0/emailguard",
-      "points": ["Real-time disposable email detection", "MX validation and fraud prevention", "Deployed on Cloudflare Pages"]
+      "points": [
+        "Real-time disposable email detection",
+        "MX validation and fraud prevention",
+        "Deployed on Cloudflare Pages"
+      ]
     },
     {
       "name": "FleetSquad",
       "live": "https://fleetsquad-next.vercel.app",
       "github": "https://github.com/harshvishwakarma0",
-      "points": ["Nationwide fleet maintenance portal", "Built with Next.js for logistics operators", "Commercial vehicle service management"]
+      "points": [
+        "Nationwide fleet maintenance portal",
+        "Built with Next.js for logistics operators",
+        "Commercial vehicle service management"
+      ]
     },
     {
       "name": "Prompt Converter",
       "live": "https://github.com/harshvishwakarma0/Prompt-Converter",
       "github": "https://github.com/harshvishwakarma0/Prompt-Converter",
-      "points": ["Context-aware AI platform using Gemini 1.5 Flash", "Context Chain with recursive AI logic", "Schema-driven JSON generation"]
+      "points": [
+        "Context-aware AI platform using Gemini 1.5 Flash",
+        "Context Chain with recursive AI logic",
+        "Schema-driven JSON generation"
+      ]
     }
-  ],
-  "stats": {
-    "titleColor": "255DF6",
-    "iconColor": "255DF6",
-    "textColor": "c9d1d9",
-    "bgColor": "0d1117",
-    "ringColor": "255DF6",
-    "fireColor": "255DF6"
-  }
+  ]
 }
