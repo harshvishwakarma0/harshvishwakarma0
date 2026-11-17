@@ -319,7 +319,8 @@ function buildBody(cfg) {
   cfg.techStack.forEach((t) => {
     lines.push(`### ${t.title}`);
     lines.push('<p align="left">');
-    lines.push(`  <img src="https://skillicons.dev/icons?i=${t.icons}&theme=dark" alt="${esc(t.title)}" />`);
+    if (t.icons) lines.push(`  <img src="https://skillicons.dev/icons?i=${t.icons}&theme=dark" alt="${esc(t.title)}" />`);
+    (t.customIcons || []).forEach((src) => lines.push(`  <img src="${src}" width="48" height="48" alt="" />`));
     lines.push('</p>', '');
     if (t.note) lines.push(`> ${t.note}`, '');
   });

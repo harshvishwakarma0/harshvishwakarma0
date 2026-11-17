@@ -77,6 +77,15 @@
       "title": "Cloud & DevOps",
       "icons": "firebase,supabase,git,github,docker,cloudflare",
       "note": "Cloudflare Workers · Cloudflare Pages · Supabase · Vercel · Git · Docker · CI/CD Pipelines"
+    },
+    {
+      "title": "Tools & Editors",
+      "icons": "vscode",
+      "customIcons": [
+        "assets/icon-zed.svg",
+        "assets/icon-t3code.png"
+      ],
+      "note": "VS Code · Zed · T3 Code"
     }
   ],
   "projects": [
@@ -121,23 +130,23 @@
       ]
     },
     {
-      "name": "FleetSquad",
-      "live": "https://fleetsquad-next.vercel.app",
+      "name": "Aptitude Arena AI",
+      "live": "https://aptitude-arena.klivo.workers.dev/",
       "github": "https://github.com/harshvishwakarma0",
       "points": [
-        "Nationwide fleet maintenance portal",
-        "Built with Next.js for logistics operators",
-        "Commercial vehicle service management"
+        "AI-assisted placement training and competitive aptitude assessment",
+        "Adaptive question banks with real-time performance analytics",
+        "Time-gated mock evaluations and instant result breakdowns"
       ]
     },
     {
-      "name": "Prompt Converter",
-      "live": "https://github.com/harshvishwakarma0/Prompt-Converter",
-      "github": "https://github.com/harshvishwakarma0/Prompt-Converter",
+      "name": "Jan Suvidha Portal",
+      "live": "https://jan-suvidha-portal.vercel.app/",
+      "github": "https://github.com/harshvishwakarma0/Jan-Suvidha-Portal",
       "points": [
-        "Context-aware AI platform using Gemini 1.5 Flash",
-        "Context Chain with recursive AI logic",
-        "Schema-driven JSON generation"
+        "Citizen grievance and municipal services portal",
+        "Automated ticketing with department routing",
+        "Transparent status resolution tracking"
       ]
     }
   ],
