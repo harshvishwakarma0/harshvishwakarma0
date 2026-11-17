@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="120" data-theme="light" width="420">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+:root {
+  --color-text: #255DF6;
+  --color-dot-bg-0: #EBEDF0;
+  --color-dot-bg-1: #A7BEFB;
+  --color-dot-bg-2: #628BF9;
+  --color-dot-bg-3: #4071F7;
+  --color-dot-bg-4: #255DF6;
+  --color-dot-border: rgb(0 0 0 / 0.06);
+  --default-delay: 0.15s;
+  --default-duration: 0.7s;
+  --default-stagger: 0.02s;
+  --animate-in-menu-delay: calc(var(--default-delay) + var(--default-stagger) * 0);
+  --animate-in-links-delay: calc(var(--default-delay) + var(--default-stagger) * 1);
+  --animate-in-contributions-delay: calc(var(--default-delay) + var(--default-stagger) * 5);
+  --animate-in-readme-delay: calc(var(--default-delay) + var(--default-stagger) * 6);
+  --animate-in-graph-delay: calc(var(--default-delay) + var(--default-stagger) * 17);
+}
+*, *::before, *::after { box-sizing: border-box; }
+.grid { display: grid; grid-template-columns: repeat(6, 1fr); }
+.wrapper {
+  contain: strict;
+  block-size: 120px;
+  container-type: inline-size;
+  position: relative;
+  overflow: clip;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  color: var(--color-text);
+}
+@-moz-document url-prefix() { .wrapper { display: none; } }
+.label { contain: content; font-size: 14px; font-weight: 600; }
+.link { contain: content; font-size: 14px; }
+.fade-in {
+  display: inline-block;
+  will-change: transform;
+  animation-name: fade-in;
+  animation-fill-mode: both;
+  animation-duration: var(--duration, var(--default-duration));
+  animation-timing-function: var(--ease, ease-out);
+  animation-delay: var(--delay, var(--default-delay));
+}
+p { margin: 0; }
+@keyframes fade-in { 0% { transform: translateY(5px); } 100% { transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) {
+  .fade-in, .shine, .link__arrow, .years { animation: none !important; }
+}
+.shine {
+  background-color: var(--color-text);
+  background-image: linear-gradient(-75deg, rgb(0 0 0 / 0) 0%, rgb(255 255 255 / 0.18) 15%, rgb(0 0 0 / 0) 25%);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  animation-name: shine;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+}
+@keyframes shine {
+  0% { background-position: 200%; }
+  10% { background-position: 0%; }
+  to { background-position: 0%; }
+}
+
+:root { --size-height: 100%; }
+.wrapper { padding: 18px 20px; }
+.card { height:100%; border:1px solid var(--color-dot-bg-0); border-radius:10px; display:flex; flex-direction:column; justify-content:center; }
+.title { font-size:13px; font-weight:600; margin-bottom:16px; }
+.row { display:flex; gap:26px; }
+.cell { display:flex; flex-direction:column; }
+.cell b { font-size:23px; font-weight:600; line-height:1.1; }
+.cell span { font-size:11px; opacity:0.65; }
+
+</style>
+      <main class="wrapper"><div class="card">
+  <div class="title">GitHub Stats</div>
+  <div class="row">
+    <div class="cell"><b>16</b><span>Repos</span></div>
+    <div class="cell"><b>2</b><span>Followers</span></div>
+    <div class="cell"><b>2</b><span>Following</span></div>
+    <div class="cell"><b>1</b><span>Stars</span></div>
+  </div>
+</div></main>
+    </div>
+  </foreignObject>
+</svg>

@@ -1,0 +1,124 @@
+{
+  "username": "harshvishwakarma0",
+  "name": "Harsh Vishwakarma",
+  "intro": "I'm Harsh. A software engineer in Mumbai building cloud-native web apps with React, Next.js and Python.",
+  "contributionLabel": "Contributions",
+  "contributionTotal": 115,
+  "contributionTotalNote": "Owner-reported total (2026: 107 + 2025: 8), includes private contributions hidden from the public endpoint.",
+  "portfolio": "https://harshdev0.com",
+  "music": {
+    "title": "Lofi Music",
+    "artist": "harsh.dev · generative loop",
+    "label": "CLICK TO PLAY",
+    "url": "https://raw.githubusercontent.com/harshvishwakarma0/harshvishwakarma0/main/assets/lofi-music.mp3",
+    "source": "https://harshdev0.com",
+    "hint": "Click the play button to hear the lofi loop from my portfolio."
+  },
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/harshvishwakarma0" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/harsh-vishwakarma-dev" },
+    { "label": "Email", "url": "mailto:vishwakarmah330@gmail.com" }
+  ],
+  "badges": [
+    { "label": "Portfolio", "value": "harshdev0.com", "url": "https://harshdev0.com", "color": "255DF6" },
+    { "label": "Email", "value": "vishwakarmah330@gmail.com", "url": "mailto:vishwakarmah330@gmail.com", "color": "1D4ED8" },
+    { "label": "GitHub", "value": "harshvishwakarma0", "url": "https://github.com/harshvishwakarma0", "color": "0f172a" },
+    { "label": "Instagram", "value": "harshvishwakarma0", "url": "https://instagram.com/harshvishwakarma0", "color": "E1306C" }
+  ],
+  "typingLines": [
+    "Building scalable production systems",
+    "Full Stack | Cloud-Native | SaaS",
+    "React 19 + Next.js + TypeScript + Python",
+    "Turning ideas into real products"
+  ],
+  "about": {
+    "role": "Full Stack Developer",
+    "focus": ["SaaS", "System Design", "Cloud-Native Apps", "AI Integrations"],
+    "stack": ["React 19", "Next.js", "TypeScript", "Python", "Node.js", "Supabase"],
+    "strengths": ["End-to-End Architecture", "DSA", "Performance Optimization"],
+    "philosophy": "Engineer high-efficiency systems where performance, clean architecture, and operational reliability scale seamlessly.",
+    "currentlyOn": "🔭 Building institutional SaaS suites and edge microservices"
+  },
+  "highlights": [
+    "🔭 **Currently building** institutional academic suites and edge microservices",
+    "⚙️ **Strong in** system design + DSA-driven problem solving",
+    "🌐 **Focused on** React 19, Next.js, TypeScript and Python",
+    "🏆 **Awarded** Software Innovation Excellence Award with a Rs. 11,000 honorarium",
+    "📈 **Always optimizing** for performance and scalability"
+  ],
+  "techStack": [
+    {
+      "title": "Languages & Problem Solving",
+      "icons": "python,cpp,js,ts,java",
+      "note": "Data Structures & Algorithms · Object-Oriented Programming · Logic Building · System Thinking"
+    },
+    {
+      "title": "Frontend Development",
+      "icons": "react,nextjs,html,css,tailwind",
+      "note": "React 19 · Next.js · TypeScript · Responsive UI · Component Architecture · Performance-first Design"
+    },
+    {
+      "title": "Backend Development",
+      "icons": "nodejs,express,postgres,mongodb",
+      "note": "Node.js · Express.js · REST APIs · Microservices · Auth Systems · Scalable Backend Architectures"
+    },
+    {
+      "title": "Cloud & DevOps",
+      "icons": "firebase,supabase,git,github,docker,cloudflare",
+      "note": "Cloudflare Workers · Cloudflare Pages · Supabase · Vercel · Git · Docker · CI/CD Pipelines"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Result Management System (RMS)",
+      "live": "https://rms-resultmanagementsystem.vercel.app/login",
+      "github": "https://github.com/harshvishwakarma0",
+      "points": ["Enterprise result computation & marksheet publishing", "Bulk grade imports and secure verification portals", "1,000+ active students and faculty"]
+    },
+    {
+      "name": "Exam Cell Management System",
+      "live": "https://exam-cell-management-system-tsdc.vercel.app/",
+      "github": "https://github.com/harshvishwakarma0",
+      "points": ["Seating arrangements & hall ticket issuance", "Invigilator duty rosters and timetable scheduling", "Built at institutional scale"]
+    },
+    {
+      "name": "ToolNest",
+      "live": "https://toolnest.klivo.workers.dev/",
+      "github": "https://github.com/harshvishwakarma0",
+      "points": ["15+ developer utilities on Cloudflare Workers", "Text, encoding, JSON, regex and crypto tools", "Zero-latency edge execution"]
+    },
+    {
+      "name": "EmailGuard",
+      "live": "https://emailguard.pages.dev/",
+      "github": "https://github.com/harshvishwakarma0/emailguard",
+      "points": ["Real-time disposable email detection", "MX validation and fraud prevention", "Deployed on Cloudflare Pages"]
+    },
+    {
+      "name": "FleetSquad",
+      "live": "https://fleetsquad-next.vercel.app",
+      "github": "https://github.com/harshvishwakarma0",
+      "points": ["Nationwide fleet maintenance portal", "Built with Next.js for logistics operators", "Commercial vehicle service management"]
+    },
+    {
+      "name": "Prompt Converter",
+      "live": "https://github.com/harshvishwakarma0/Prompt-Converter",
+      "github": "https://github.com/harshvishwakarma0/Prompt-Converter",
+      "points": ["Context-aware AI platform using Gemini 1.5 Flash", "Context Chain with recursive AI logic", "Schema-driven JSON generation"]
+    }
+  ],
+  "traits": [
+    ["Architecture", "Design full systems from scratch — DB to UI"],
+    ["Code Quality", "Clean, maintainable, production-level standards"],
+    ["Debugging", "Strong systematic debugging & root-cause thinking"],
+    ["Delivery", "Ship complete, working products — not just MVPs"],
+    ["Optimization", "Performance-first mindset at every layer"]
+  ],
+  "stats": {
+    "titleColor": "255DF6",
+    "iconColor": "255DF6",
+    "textColor": "c9d1d9",
+    "bgColor": "0d1117",
+    "ringColor": "255DF6",
+    "fireColor": "255DF6"
+  }
+}
