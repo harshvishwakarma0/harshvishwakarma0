@@ -1,10 +1,8 @@
 <img width="100%" src="assets/hero-banner-harshdev.gif" alt="Harsh Vishwakarma" />
 
 <h1 align="center">Hello Traveler, I'm Harsh Vishwakarma 👋</h1>
-I'm a full stack developer from Mumbai, building production-grade web platforms, edge microservices and developer tools that people actually use.
 
 <br>
-
 <div align="center">
   <a href="https://harshdev0.com"><img src="https://img.shields.io/badge/Portfolio-harshdev0.com-255DF6?style=for-the-badge" alt="Portfolio" /></a>
   <a href="mailto:vishwakarmah330@gmail.com"><img src="https://img.shields.io/badge/Email-vishwakarmah330%40gmail.com-1D4ED8?style=for-the-badge" alt="Email" /></a>

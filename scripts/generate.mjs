@@ -193,9 +193,8 @@ function streakCardSvg(theme, streak) {
 function buildHeader(cfg) {
   const lines = [];
   lines.push(`<img width="100%" src="assets/hero-banner-harshdev.gif" alt="${esc(cfg.name)}" />`, '');
-  lines.push(`<h1 align="center">Hello Traveler, I'm ${esc(cfg.name)} 👋</h1>`);
-  lines.push(cfg.tagline, '');
-  lines.push('<br>', '', '<div align="center">');
+  lines.push(`<h1 align="center">Hello Traveler, I'm ${esc(cfg.name)} 👋</h1>`, '');
+  lines.push('<br>', '<div align="center">');
   cfg.badges.forEach((b) => {
     const src = `https://img.shields.io/badge/${encodeURIComponent(b.label)}-${encodeURIComponent(b.value)}-${b.color}?style=for-the-badge`;
     lines.push(`  <a href="${b.url}"><img src="${src}" alt="${esc(b.label)}" /></a>`);
