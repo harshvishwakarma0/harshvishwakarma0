@@ -2,9 +2,7 @@
   "username": "harshvishwakarma0",
   "name": "Harsh Vishwakarma",
   "intro": "I'm Harsh. A software engineer in Mumbai building cloud-native web apps with React, Next.js and Python.",
-  "contributionLabel": "Contributions",
-  "contributionTotal": 115,
-  "contributionTotalNote": "Owner-reported total (2026: 107 + 2025: 8), includes private contributions hidden from the public endpoint.",
+  "tagline": "I'm a full stack developer from Mumbai, building production-grade web platforms, edge microservices and developer tools that people actually use.",
   "portfolio": "https://harshdev0.com",
   "streak": {
     "total": 115,
@@ -15,38 +13,25 @@
     "longestRange": "Jul 10 – Jul 13",
     "source": "github.com/users/harshvishwakarma0/contributions"
   },
-  "links": [
-    { "label": "GitHub", "url": "https://github.com/harshvishwakarma0" },
-    { "label": "LinkedIn", "url": "https://linkedin.com/in/harsh-vishwakarma-dev" },
-    { "label": "Email", "url": "mailto:vishwakarmah330@gmail.com" }
-  ],
   "badges": [
     { "label": "Portfolio", "value": "harshdev0.com", "url": "https://harshdev0.com", "color": "255DF6" },
     { "label": "Email", "value": "vishwakarmah330@gmail.com", "url": "mailto:vishwakarmah330@gmail.com", "color": "1D4ED8" },
     { "label": "GitHub", "value": "harshvishwakarma0", "url": "https://github.com/harshvishwakarma0", "color": "0f172a" },
     { "label": "Instagram", "value": "harshvishwakarma0", "url": "https://instagram.com/harshvishwakarma0", "color": "E1306C" }
   ],
-  "typingLines": [
-    "Building scalable production systems",
-    "Full Stack | Cloud-Native | SaaS",
-    "React 19 + Next.js + TypeScript + Python",
-    "Turning ideas into real products"
-  ],
   "about": {
-    "role": "Full Stack Developer",
-    "focus": ["SaaS", "System Design", "Cloud-Native Apps", "AI Integrations"],
-    "stack": ["React 19", "Next.js", "TypeScript", "Python", "Node.js", "Supabase"],
-    "strengths": ["End-to-End Architecture", "DSA", "Performance Optimization"],
-    "philosophy": "Engineer high-efficiency systems where performance, clean architecture, and operational reliability scale seamlessly.",
-    "currentlyOn": "🔭 Building institutional SaaS suites and edge microservices"
+    "facts": [
+      "<b>Harsh</b> is my name, a full stack developer based in Mumbai, India.",
+      "Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.",
+      "Lead Software Architect at <b>TSDC</b>, shipping exam, result and academic systems used by 1,000+ students.",
+      "Comfortable across <b>React 19 / Next.js / TypeScript</b> up front and <b>Node.js / Python / Postgres</b> on the back.",
+      "I speak <b>Marathi</b> (native), <b>Hindi</b> and <b>English</b>.",
+      "BSc IT at the University of Mumbai, and a Software Innovation Excellence Award winner.",
+      "Loves system design, DSA and turning rough ideas into shipped products.",
+      "Nice to meet you!"
+    ],
+    "philosophy": "Engineer high-efficiency systems where performance, clean architecture, and operational reliability scale seamlessly."
   },
-  "highlights": [
-    "🔭 **Currently building** institutional academic suites and edge microservices",
-    "⚙️ **Strong in** system design + DSA-driven problem solving",
-    "🌐 **Focused on** React 19, Next.js, TypeScript and Python",
-    "🏆 **Awarded** Software Innovation Excellence Award with a Rs. 11,000 honorarium",
-    "📈 **Always optimizing** for performance and scalability"
-  ],
   "techStack": [
     {
       "title": "Languages & Problem Solving",
@@ -106,13 +91,6 @@
       "github": "https://github.com/harshvishwakarma0/Prompt-Converter",
       "points": ["Context-aware AI platform using Gemini 1.5 Flash", "Context Chain with recursive AI logic", "Schema-driven JSON generation"]
     }
-  ],
-  "traits": [
-    ["Architecture", "Design full systems from scratch — DB to UI"],
-    ["Code Quality", "Clean, maintainable, production-level standards"],
-    ["Debugging", "Strong systematic debugging & root-cause thinking"],
-    ["Delivery", "Ship complete, working products — not just MVPs"],
-    ["Optimization", "Performance-first mindset at every layer"]
   ],
   "stats": {
     "titleColor": "255DF6",
