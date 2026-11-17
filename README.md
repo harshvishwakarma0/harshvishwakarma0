@@ -1,6 +1,6 @@
 <img width="100%" src="assets/hero-banner-harshdev.gif" alt="Harsh Vishwakarma" />
 
-<h1 align="center">Hello Traveler, I'm Harsh Vishwakarma 👋</h1>
+<h1 align="center">Hello Traveller, I'm Harsh Vishwakarma 👋</h1>
 
 <br>
 <div align="center">
