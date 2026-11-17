@@ -332,6 +332,32 @@ function statCards(theme, stats) {
   };
 }
 
+function streakCardSvg(theme, streak) {
+  const css = sharedCss(theme, 120, `
+:root { --size-height: 120; }
+.wrapper { padding: 16px 20px; }
+.card { height:100%; border:1px solid var(--color-dot-bg-0); border-radius:10px;
+  display:flex; flex-direction:column; justify-content:center; gap:14px; }
+.title { font-size:13px; font-weight:600; }
+.row { display:flex; gap:28px; }
+.cell { display:flex; flex-direction:column; }
+.cell b { font-size:24px; font-weight:600; line-height:1.05; }
+.cell span { font-size:10px; opacity:0.65; }
+.years { font-size:11px; opacity:0.7; }
+`);
+  const years = Object.entries(streak.years).sort((a, b) => b[0] - a[0]).map(([y, n]) => `${y}: ${n}`).join('  ·  ');
+  const body = `<main class="wrapper"><div class="card">
+  <div class="title">Contributions</div>
+  <div class="row">
+    <div class="cell"><b>${streak.total}</b><span>Total</span></div>
+    <div class="cell"><b>${streak.current}</b><span>Current streak</span></div>
+    <div class="cell"><b>${streak.longest}</b><span>Longest streak</span></div>
+  </div>
+  <div class="years">${esc(years)}</div>
+</div></main>`;
+  return svgShell({ theme, width: 420, height: 120, css, body });
+}
+
 function buildHeader(cfg) {
   const enc = encodeURIComponent;
   const lines = ['<div align="center">'];
@@ -394,17 +420,10 @@ function buildBody(cfg) {
 
   lines.push('## GitHub Stats', '', '<div align="center">');
   lines.push('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img width="49%" src="assets/stats-light.svg" alt="GitHub stats" /></picture>');
-  lines.push(`<img width="49%" src="https://streak-stats.demolab.com/?user=${cfg.username}&theme=tokyonight&hide_border=true&background=${s.bgColor}&ring=${s.ringColor}&fire=${s.fireColor}&currStreakLabel=${s.titleColor}&sideLabels=${s.textColor}&dates=${s.textColor}" alt="Contribution streak" />`);
+  lines.push('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img width="49%" src="assets/streak-light.svg" alt="Contribution streak" /></picture>');
   lines.push('<br />');
   lines.push('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"><img width="40%" src="assets/langs-light.svg" alt="Top languages" /></picture>');
   lines.push('</div>', '', '---', '');
-
-  lines.push('## 🐍 Contribution Snake', '');
-  lines.push('<picture>');
-  lines.push(`  <source media="(prefers-color-scheme: dark)" srcset="${cfg.snake.dark}" />`);
-  lines.push(`  <source media="(prefers-color-scheme: light)" srcset="${cfg.snake.light}" />`);
-  lines.push(`  <img alt="GitHub contribution snake animation" src="${cfg.snake.light}" />`);
-  lines.push('</picture>', '', '---', '');
 
   lines.push('## What I Bring to the Table', '', '| Trait | Details |', '|---|---|');
   cfg.traits.forEach(([t, d]) => lines.push(`| **${t}** | ${d} |`));
@@ -435,6 +454,7 @@ for (const theme of ['light', 'dark']) {
   const cards = statCards(theme, ghStats);
   files.push([`stats-${theme}.svg`, cards.stats]);
   files.push([`langs-${theme}.svg`, cards.langs]);
+  files.push([`streak-${theme}.svg`, streakCardSvg(theme, config.streak)]);
   config.links.forEach((link, i) => files.push([`link-${i}-${theme}.svg`, linkSvg(theme, link.label, i)]));
 }
 for (const [name, content] of files) fs.writeFileSync(path.join(ASSETS, name), content);
