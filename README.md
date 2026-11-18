@@ -32,7 +32,7 @@ I'm a passionate Software Developer with a strong foundation in software develop
 <br>
 
 <div>
-  <img src="assets/avatar.webp" align="left" width="200px" alt="Harsh Vishwakarma" />
+  <img src="assets/character-sliced.png" align="left" width="200px" alt="Harsh Vishwakarma" />
   <p align="left">
    &nbsp;
    &nbsp;&#10022; <b>Harsh</b> is my name, a full stack developer based in Mumbai, India.<br>
