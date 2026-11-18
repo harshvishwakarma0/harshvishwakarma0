@@ -8,7 +8,7 @@
   <a href="mailto:vishwakarmah330@gmail.com"><img src="https://img.shields.io/badge/Email-vishwakarmah330%40gmail.com-1D4ED8?style=for-the-badge" alt="Email" /></a>
   <a href="https://github.com/harshvishwakarma0"><img src="https://img.shields.io/badge/GitHub-harshvishwakarma0-0f172a?style=for-the-badge" alt="GitHub" /></a>
   <img src="https://komarev.com/ghpvc/?username=harshvishwakarma0&style=for-the-badge&color=255DF6" alt="Profile Views" />
-  <a href="https://instagram.com/harshvishwakarma0"><img src="https://img.shields.io/badge/Instagram-harshvishwakarma0-E1306C?style=for-the-badge" alt="Instagram" /></a>
+  <a href="https://instagram.com/_harshxgod"><img src="https://img.shields.io/badge/Instagram-_harshxgod-E1306C?style=for-the-badge" alt="Instagram" /></a>
 </div>
 
 <picture>
