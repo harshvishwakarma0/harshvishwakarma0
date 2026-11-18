@@ -185,7 +185,9 @@
 
 <div align="center">
 
-> *"Engineer high-efficiency systems where performance, clean architecture, and operational reliability scale seamlessly."*
+> *"The present is theirs; the future, for which I really worked, is mine."*
+>
+> — **Nikola Tesla**
 
 </div>
 

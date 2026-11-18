@@ -353,7 +353,11 @@ function buildBody(cfg) {
   lines.push('<picture><source media="(prefers-color-scheme: dark)" srcset="assets/langs-dark.svg"><img width="40%" src="assets/langs-light.svg" alt="Top languages" /></picture>');
   lines.push('</div>', '', '---', '');
 
-  lines.push('## Philosophy', '', '<div align="center">', '', `> *"${a.philosophy}"*`, '', '</div>', '', '---', '');
+  if (a.philosophyAuthor) {
+    lines.push('## Philosophy', '', '<div align="center">', '', `> *"${a.philosophy}"*`, '>', `> — **${a.philosophyAuthor}**`, '', '</div>', '', '---', '');
+  } else {
+    lines.push('## Philosophy', '', '<div align="center">', '', `> *"${a.philosophy}"*`, '', '</div>', '', '---', '');
+  }
 
   const footer = cfg.footer || {
     heading: 'Thank you for reading 🙋🏻‍♂️',
