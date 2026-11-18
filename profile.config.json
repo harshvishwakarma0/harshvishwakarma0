@@ -53,11 +53,13 @@
     }
   ],
   "about": {
-    "intro": "I'm a passionate Software Developer with a strong foundation in software development, proficient in applying core principles of software development and experienced with various technologies and frameworks to tackle complex problems.",
+    "intro": "Full Stack Developer specializing in institutional SaaS platforms, high-performance web applications, and edge computing. Creator of TSDC's exam and result computation systems serving 1,000+ students, along with edge developer utilities like ToolNest and EmailGuard on Cloudflare Workers.",
     "facts": [
       "<b>Harsh</b> is my name, a full stack developer based in Mumbai, India.",
       "Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.",
-      "Built the exam, result and academic systems at <b>TSDC</b>, used by 1,000+ students.",
+      "Built the <b>Exam Cell</b> and <b>Result Management System (RMS)</b> at <b>TSDC</b>, used by 1,000+ students.",
+      "Creator of <b>ToolNest</b> (15+ edge tools) and <b>EmailGuard</b> (real-time MX fraud protection).",
+      "Focused on <b>Next.js</b>, <b>Node.js</b>, <b>Cloudflare Workers</b>, and <b>AI Agent protocols</b>.",
       "I speak <b>Hindi</b> (native), <b>English</b>.",
       "Nice to meet you!"
     ],
