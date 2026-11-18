@@ -27,14 +27,18 @@
 
 ## About Me
 
+I'm a passionate Software Developer with a strong foundation in software development, proficient in applying core principles of software development and experienced with various technologies and frameworks to tackle complex problems.
+
+<br>
+
 <div>
-  <img src="assets/avatar.webp" align="right" width="200px" alt="Harsh Vishwakarma" />
+  <img src="assets/avatar.webp" align="left" width="200px" alt="Harsh Vishwakarma" />
   <p align="left">
    &nbsp;
    &nbsp;&#10022; <b>Harsh</b> is my name, a full stack developer based in Mumbai, India.<br>
    &nbsp;&#10022; Currently freelancing as a <b>Full Stack Developer</b>, building institutional SaaS platforms end to end.<br>
    &nbsp;&#10022; Built the exam, result and academic systems at <b>TSDC</b>, used by 1,000+ students.<br>
-   &nbsp;&#10022; I speak <b>Hindi</b> (native) and <b>English</b>.<br>
+   &nbsp;&#10022; I speak <b>Hindi</b> (native), <b>English</b>.<br>
    &nbsp;&#10022; Nice to meet you!<br>
   </p>
 </div>

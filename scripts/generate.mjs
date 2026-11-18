@@ -321,8 +321,11 @@ function buildBody(cfg) {
   const lines = [];
 
   lines.push('## About Me', '');
+  if (a.intro) {
+    lines.push(a.intro, '', '<br>', '');
+  }
   lines.push('<div>');
-  lines.push(`  <img src="assets/avatar.webp" align="right" width="200px" alt="${esc(cfg.name)}" />`);
+  lines.push(`  <img src="assets/avatar.webp" align="left" width="200px" alt="${esc(cfg.name)}" />`);
   lines.push('  <p align="left">', '   &nbsp;');
   a.facts.forEach((f) => lines.push(`   &nbsp;&#10022; ${f}<br>`));
   lines.push('  </p>', '</div>', '', '<br clear="all" />', '', '---', '');
