@@ -326,8 +326,11 @@ function buildBody(cfg) {
   }
   lines.push('<div>');
   lines.push(`  <img src="assets/character-sliced.png" align="left" width="200px" alt="${esc(cfg.name)}" />`);
-  lines.push('  <p align="left">', '   &nbsp;');
-  a.facts.forEach((f) => lines.push(`   &nbsp;&#10022; ${f}<br>`));
+  lines.push('  <p align="left">');
+  a.facts.forEach((f, idx) => {
+    const isLast = idx === a.facts.length - 1;
+    lines.push(`  &#10022; ${f}${isLast ? '<br>' : '<br><br>'}`);
+  });
   lines.push('  </p>', '</div>', '', '<br clear="all" />', '', '---', '');
 
   lines.push('## Tech Stack', '');
