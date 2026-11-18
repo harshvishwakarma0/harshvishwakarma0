@@ -325,7 +325,7 @@ function buildBody(cfg) {
     lines.push(a.intro, '', '<br>', '');
   }
   lines.push('<div>');
-  lines.push(`  <img src="assets/character-sliced.png" align="left" width="200px" alt="${esc(cfg.name)}" />`);
+  lines.push(`  <img src="assets/character-sliced.png" align="left" width="130px" alt="${esc(cfg.name)}" />`);
   lines.push('  <p align="left">');
   a.facts.forEach((f, idx) => {
     const isLast = idx === a.facts.length - 1;
